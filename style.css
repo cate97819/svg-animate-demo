@@ -1,0 +1,43 @@
+body {
+    background-color: #cce1e2;
+    position: relative;
+    margin: 0;
+}
+
+.animate1 {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    scale: 4;
+    z-index: -1;
+}
+
+.animate2 {
+    position: absolute;
+    top: 450px;
+    right: -300px;
+    scale: 3;
+    z-index: -1;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+div:nth-of-type(1) {
+    height: 600px;
+    width: 100%;
+}
+
+div:nth-of-type(2) {
+    height: 800px;
+    width: 100%;
+    background-color: ghostwhite;
+}
